@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+}
+
+.titulo_galeria {
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+    animation-delay: 3s;
+}

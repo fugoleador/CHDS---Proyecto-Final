@@ -1,0 +1,28 @@
+//variables
+@import "../scss/utilities/variables";
+
+//reset css
+@import "../scss/reset/reset";
+
+//estilos
+@import "../scss/estilos/modificaciones";
+@import "../scss/estilos/animaciones";
+
+//componentes
+@import "../scss/components/imagenes";
+@import "../scss/components/titles";
+@import "../scss/components/texto";
+
+//galeria
+@import "../scss/galeria/galeria";
+
+//general
+@import "../scss/general/footer";
+@import "../scss/general/header";
+
+//layout
+@import "../scss/layout/flex";
+@import "../scss/layout/grid";
+
+//views
+@import "../scss/views/queries";

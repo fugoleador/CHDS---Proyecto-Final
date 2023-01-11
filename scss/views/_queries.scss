@@ -1,0 +1,17 @@
+@media screen and (min-width: 480px) {
+    .galeria img{
+        width: 50%;
+    }
+    .imagen_principal{
+        width: 100%
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .galeria img{
+        width: 30%;
+    }
+    .imagen_principal{
+        width: 100%
+    }
+}

@@ -1,0 +1,26 @@
+.redes_sociales {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+.yoga_flex {
+    display: flex;
+
+
+    &__div {
+    width: 40%;
+}
+
+}
+
+.meditacion_flex {
+    display: flex;
+}
+
+.fundador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

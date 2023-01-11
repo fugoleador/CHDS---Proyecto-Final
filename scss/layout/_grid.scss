@@ -1,0 +1,19 @@
+header{
+    grid-area: encabezado;
+}
+
+main{
+    grid-area: contenido_principal;
+}
+footer{
+    grid-area: pie_de_pagina;
+}
+
+#grilla{
+    display:grid;
+
+    grid-template-areas:    "encabezado"
+                            "contenido_principal"
+                            "pie_de_pagina";
+}
+

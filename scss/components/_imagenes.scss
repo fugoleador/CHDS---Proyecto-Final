@@ -1,0 +1,17 @@
+.imagen_principal {
+    display: flex;
+    justify-content: center;
+
+
+    &__img {
+    border-radius: 40px;
+    }
+}
+
+.imagen_yogui {
+    size: 50px;
+}
+
+.fundador img {
+    width: 30%;
+}
