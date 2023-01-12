@@ -1,7 +1,7 @@
 .redes_sociales {
     display: flex;
     justify-content: space-evenly;
-    width: 20%;
+    width: $ancho40/2;
 }
 
 .yoga_flex {
@@ -9,7 +9,7 @@
 
 
     &__div {
-    width: 40%;
+    width: $ancho40;
 }
 
 }
