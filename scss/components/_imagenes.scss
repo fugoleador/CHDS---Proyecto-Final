@@ -1,10 +1,15 @@
 .imagen_principal {
-    display: flex;
-    justify-content: center;
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+
 
 
     &__img {
-    border-radius: $size40;
+        border-radius: 15px;
+        width: 100%;
+        box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);    
     }
 }
 
@@ -12,6 +17,29 @@
     size: 50px;
 }
 
-.fundador img {
-    width: 30%;
+.imagen_fundador {
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.imagen_fundador img {
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+
+#img1, #img2 {
+    border-radius: 10%;
+    width: 450px;
+    height: 350px;
+    margin: 20px;
+}
+
+#img1 {
+    float: right;
+}
+#img2 {
+    float: left;
 }

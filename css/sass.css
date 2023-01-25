@@ -39,20 +39,23 @@ i {
   }
 }
 .imagen_principal {
-  display: flex;
-  justify-content: center;
+  width: 75vw;
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto;
 }
-.imagen_principal__img {
-  border-radius: 40px;
+
+.imagen_principal img {
+  border-radius: 15px;
+  width: 100%;
+  box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
 }
 
 .imagen_yogui {
   size: 50px;
 }
 
-.fundador img {
-  width: 30%;
-}
+
 
 h1 {
   text-align: center;
@@ -73,7 +76,6 @@ h1 {
 
 .texto_fundador {
   text-align: center;
-  width: 30%;
   justify-content: center;
   align-items: center;
 }
@@ -82,6 +84,10 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.galeria img{
+  width: 90%;
 }
 
 footer {
@@ -99,6 +105,19 @@ footer div {
   width: 20%;
 }
 
+#img1, #img2 {
+  border-radius: 10%;
+  width: 450px;
+  height: 350px;
+  margin: 20px;
+}
+
+#img1 {
+  float: right;
+}
+#img2 {
+  float: left;
+}
 .yoga_flex {
   display: flex;
 }
@@ -132,6 +151,10 @@ footer {
 #grilla {
   display: grid;
   grid-template-areas: "encabezado" "contenido_principal" "pie_de_pagina";
+}
+
+p {
+  padding: 3px;
 }
 
 @media screen and (min-width: 480px) {
